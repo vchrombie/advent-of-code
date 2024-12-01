@@ -2,7 +2,7 @@
 
 [Advent of Code 2024](https://adventofcode.com/2024)
 
-- [ ] Day 1
+- [x] [Day 1](./day-01/)
 - [ ] Day 2
 - [ ] Day 3
 - [ ] Day 4
