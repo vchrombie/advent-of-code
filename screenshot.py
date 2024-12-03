@@ -1,6 +1,6 @@
 import os
 import shutil
-import mss.tools
+import mss.tools  # `pip install mss`
 
 from time import sleep
 from datetime import datetime
@@ -18,4 +18,5 @@ with mss.mss() as sct:
 
     shutil.move(day_png, os.path.join(f'day-{day}', day_png))
 
+    # create a gif using ImageMagick `brew install imagemagick`
     os.system(f"convert -delay 50 */*.png {year}.gif")
