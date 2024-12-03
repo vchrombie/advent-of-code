@@ -2,6 +2,8 @@
 
 [Advent of Code 2024](https://adventofcode.com/2024)
 
+<img src="./2024.png" width="650" align="right">
+
 - [x] [Day 1](./day-01/)
 - [x] [Day 2](./day-02/)
 - [x] [Day 3](./day-03/)
