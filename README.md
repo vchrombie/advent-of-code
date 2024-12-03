@@ -4,7 +4,7 @@
 
 - [x] [Day 1](./day-01/)
 - [x] [Day 2](./day-02/)
-- [ ] Day 3
+- [x] [Day 3](./day-03/)
 - [ ] Day 4
 - [ ] Day 5
 - [ ] Day 6
