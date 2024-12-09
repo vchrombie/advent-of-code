@@ -12,7 +12,7 @@ with mss.mss() as sct:
     day, year = dt.strftime('%d'), dt.strftime('%Y')
     day_png = f"day-{day}.png"
 
-    monitor = {"top": 200, "left": 0, "width": 570, "height": 610}
+    monitor = {"top": 223, "left": 0, "width": 570, "height": 610}
     sct_img = sct.grab(monitor)
     mss.tools.to_png(sct_img.rgb, sct_img.size, output=day_png)
 
