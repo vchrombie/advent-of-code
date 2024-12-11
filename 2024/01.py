@@ -1,4 +1,7 @@
 INPUT_FILE = 'input.txt'
+INPUT_FILE = 'inputs/11.txt'
+SAMPLE_FILE = 'inputs/sample/11.txt'
+
 
 nums = []
 
