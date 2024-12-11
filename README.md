@@ -9,11 +9,11 @@
 - [x] [Day 3](./day-03/)
 - [x] [Day 4](./day-04/)
 - [x] [Day 5](./day-05/)
-- [ ] Day 6
-- [ ] Day 7
-- [ ] Day 8
-- [ ] Day 9
-- [ ] Day 10
+- [x] [Day 6](./day-06/)
+- [x] [Day 7](./day-07/)
+- [x] [Day 8](./day-08/)
+- [x] [Day 9](./day-09/)
+- [x] [Day 10](./day-10/)
 - [ ] Day 11
 - [ ] Day 12
 - [ ] Day 13
