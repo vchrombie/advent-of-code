@@ -1,6 +1,6 @@
 # advent-of-code
 
-[Advent of Code 2024](https://adventofcode.com/2024)
+## [Advent of Code 2024](https://adventofcode.com/2024)
 
 <img src="https://raw.githubusercontent.com/vchrombie/advent-of-code/refs/heads/master/2024/2024.gif" width="650" align="right">
 
