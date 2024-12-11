@@ -1,7 +1,7 @@
 # template for each day's puzzle
 
 INPUT_FILE = 'input.txt'
-SAMPLE_FILE = 'input/sample.txt'
+SAMPLE_FILE = 'sample.txt'
 
 
 def part1():

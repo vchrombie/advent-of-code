@@ -5,12 +5,18 @@
 # ./setup_day 01
 # ./setup_day 31
 
+if [ -z "$1" ]; then
+    echo "enter a day"
+    exit 1
+fi
+
 cd $(date +%Y)/
-touch inputs/sample/$1.txt
 touch inputs/$1.txt
+touch inputs/sample/$1.txt
 cp ../day.py .
 sed -i '' "s|INPUT_FILE = 'input.txt'|INPUT_FILE = 'inputs/$1.txt'|" day.py
-sed -i '' "s|SAMPLE_FILE = 'input/sample.txt'|SAMPLE_FILE = 'inputs/sample/$1.txt'|" day.py
+sed -i '' "s|SAMPLE_FILE = 'sample.txt'|SAMPLE_FILE = 'inputs/sample/$1.txt'|" day.py
 sed -i '' '1,2d' day.py
 mv day.py $1.py
-echo "ready for day-$1"
+
+echo "ready for day $1"
