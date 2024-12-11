@@ -161,6 +161,12 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+# Advent of Code
 # https://adventofcode.com/about#faq_copying
 
-inputs/
+# Ignore all the input files
+*/inputs/*.txt
+
+# Do not ignore the sample input files
+!*/inputs/sample/*.txt
+
