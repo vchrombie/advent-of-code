@@ -170,3 +170,6 @@ cython_debug/
 # Do not ignore the sample input files
 !*/inputs/sample/*.txt
 
+# Ignore temporary scripts
+*/tmp.py
+
