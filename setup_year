@@ -56,6 +56,8 @@ EOF
 
 cd ..
 rm README.md
-ln -s $year/README.md README.md 
+ln -s $year/README.md README.md
+
+./setup_day
 
 echo "ready for $year"

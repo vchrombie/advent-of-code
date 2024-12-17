@@ -20,4 +20,6 @@ sed -i '' "s|SAMPLE_FILE = 'sample.txt'|SAMPLE_FILE = 'inputs/sample/$day.txt'|"
 sed -i '' '1,2d' day.py
 mv day.py $day.py
 
+code $day.py inputs/$day.txt inputs/sample/$day.txt
+
 echo "ready for day $day"
